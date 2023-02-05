@@ -85,11 +85,11 @@ class _HoomePageState extends State<HoomePage> {
                       itemBuilder: (context, index) => index != 0
                           ? Container(
                               margin: EdgeInsets.symmetric(
-                                  horizontal: 10.w, vertical: 10.w),
+                                  horizontal: 10.h, vertical: 10.w),
                               padding: EdgeInsets.symmetric(
-                                  horizontal: 10.w, vertical: 10.w),
-                              width: 139.w,
-                              height: 91.h,
+                                  horizontal: 10.h, vertical: 10.w),
+                              width: 150.w,
+                              height: 100.h,
                               decoration: BoxDecoration(
                                   color: CustomColors.white,
                                   borderRadius: BorderRadius.circular(10.w),
@@ -108,7 +108,7 @@ class _HoomePageState extends State<HoomePage> {
                                     Container(
                                       margin: EdgeInsets.only(bottom: 5.w),
                                       color: customColorList[index],
-                                      height: 36.w,
+                                      height: 36.h,
                                       width: 36.w,
                                       child: const ImageIcon(
                                         color: Colors.white,
@@ -122,7 +122,7 @@ class _HoomePageState extends State<HoomePage> {
                                       textColor: Colors.black,
                                     ),
                                     SizedBox(
-                                      height: 5.w,
+                                      height: 5.h,
                                     ),
                                     CustomTextWidget(
                                       title: "Save Date: 10/12/2022",
